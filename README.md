@@ -8,10 +8,26 @@ Para rodar o projeto é necessário instalar as seguintes ferramentas:
  - Instalar o [Python 3.x](https://www.python.org/downloads/) 
 
 ## Instruções para rodar o projeto:
-Para rodar o sistema, após clonar o repositório e realizado os pré-requisitos, pode ser utilizado o seguinte comando no terminal, dentro da pasta raiz:
+Após clonar o repositório e realizado os pré-requisitos, pode ser utilizado os seguintes comandos no terminal, dentro da pasta raiz:
 
+1. Executar o programa:
 ```
-make run
+make
+```
+
+2. Executar em um ambiente virtual:
+```
+make run_venv
+```
+
+3. Limpar arquivos temporários:
+```
+make clean
+```
+
+4. para exibir os comandos disponíveis:
+```
+make help
 ```
 
 ## Colaboradores

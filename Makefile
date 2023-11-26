@@ -1,0 +1,4 @@
+#Makefile
+
+run:
+	.\main.py

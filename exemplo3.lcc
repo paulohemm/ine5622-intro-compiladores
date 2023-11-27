@@ -1,0 +1,108 @@
+def func1(int N)
+{
+	resultado = N % 2 == 0;
+    print(resultado);
+    return resultado;
+}
+
+def func2(float A, float B) 
+{
+    resultado = A - B;
+    print(resultado);
+    return resultado;
+}
+
+def func3(float A, float B) 
+{
+    resultado = A + B;
+    print(resultado);
+    return resultado;
+}
+
+def func4(float lado) 
+{
+    float area_quadrado;
+    area_quadrado = lado * lado;
+    print("Área do quadrado:", area_quadrado);
+    return resultado;
+}
+
+def func5(float raio) 
+{
+    float area_circulo;
+    area_circulo = 3.14 * raio * raio;
+    print("Área do círculo:", area_circulo);
+    return area_circulo;
+}
+
+def func6(float lado1, float lado2, float lado3) 
+{
+    float perimetro_triangulo;
+    perimetro_triangulo = lado1 + lado2 + lado3;
+    print("Perímetro do triângulo:", perimetro_triangulo);
+    return perimetro_triangulo;
+}
+
+def func7(float aresta)
+{
+    float volume_cubo;
+    volume_cubo = aresta * aresta * aresta;
+    print("Volume do cubo:", volume_cubo);
+    return volume_cubo;
+}
+
+def func8(float area_base, float altura)
+{
+    float volume_piramide;
+    volume_piramide = (1.0 / 3.0) * area_base * altura;
+    print("Volume do cubo:", volume_piramide);
+    return volume_piramide;
+}
+
+def func9(int A, int B)
+{ 
+    int S; 
+    int T; 
+    S = A * A;
+    T = A / B;
+    if (S > T) 
+    { 
+    T = B; 
+    } 
+    else 
+    { 
+    T = A; 
+    };
+    print(T);
+    return;
+}
+
+def principal() 
+{
+    int numero;
+    float preco;
+    numero = 42;
+    preco = 9.99;
+    int resultado;
+    resultado = func3(numero, 8) * 2;
+    if (numero > 0) 
+    {
+        print("Número positivo");
+    } 
+    else 
+    {
+        print("Número não positivo");
+    }
+    for (contador = 0; contador < 3; contador = contador + 1) 
+    {
+        print("Contador: ", contador);
+    }
+    float resultado_soma;
+    resultado_soma = func3(preco, 5.55);
+    read(numero);
+    int[] array_dinamico;
+    array_dinamico = new int[5];
+    float resultado_complexo;
+    resultado_complexo = (preco + 3.0) * array_dinamico[0] / resultado_soma;
+    return resultado_complexo;
+}

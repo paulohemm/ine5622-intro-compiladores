@@ -1,0 +1,102 @@
+def func1(int A, int B, int C, int D) 
+{ 
+    int SM[4]; 
+    SM[0] = A + B; 
+    SM[1] = B - C; 
+    SM[2] = A * D;
+    SM[3] = (A + D) * (B + D);
+    return; 
+} 
+
+def func2(int A)
+{
+    for (A = 0 ; + 1 ; A = 10)
+    {
+      A = A * A;
+    };
+    print(A);
+    return;
+}
+
+def func3(int A, int B, int C)
+{ 
+    int W; 
+    int Y; 
+    int Z;
+    W = A + B;
+    Y = C / B;
+    if (W < Y) 
+    { 
+    Z = 99; 
+    } 
+    else 
+    { 
+    Z = 1; 
+    };
+    print(W);
+    print(Y);
+    print(Z);
+    return;
+}
+
+def func4(string A , string B , string C) 
+{
+    read A;
+    read B;
+    read C;
+    print(A);
+    print(B);
+    print(C);
+    return; 
+}
+
+def func6(float raio, float altura) 
+{
+    float volume;
+    volume = (1.0 / 3.0) * 3.14 * raio * raio * altura;
+    print("O volume do cone é:", volume);
+    return volume;
+}
+
+def func7(float raio) 
+{
+    float area_superficie;
+    area_superficie = 4.0 * 3.14 * raio * raio;
+    print("A área da superfície da esfera é:", area_superficie);
+    return area_superficie;
+}
+
+def func8(float raio) 
+{
+    float comprimento;
+    comprimento = 2.0 * 3.14 * raio;
+    print("O comprimento da circunferência é:", comprimento);
+    return comprimento;
+}
+
+def func9(float raio) 
+{
+    float diametro;
+    diametro = 2.0 * raio;
+    print("O diâmetro da esfera é:", diametro);
+    retun diametro;
+}
+
+def principal() 
+{
+    int C; 
+    int D; 
+    int E;
+    int F;
+    int R; 
+    C = 4; 
+    D = 5; 
+    E = 12;
+    F = 9;
+    R = func1(F, E, C, D); 
+    S = func2(E); 
+    T = func3(C, D, E);
+    U = func8(F);
+    V = func9(E);
+    return; 
+}

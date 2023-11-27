@@ -2,13 +2,15 @@
 
 .PHONY: all run clean
 
-SRC := ./main.py
+SRC1 := ./lexico.py
+SRC2 := ./sintatico.py
 
 all: run
 
 run:
 	@echo "=== Executando o programa ==="
-	@python3 $(SRC)
+	@python3 $(SRC1) 
+	@python3 $(SRC2) 
 
 venv:
 	@echo "=== Configurando ambiente virtual ==="
@@ -16,7 +18,8 @@ venv:
 
 run_venv: venv
 	@echo "=== Executando o programa no ambiente virtual ==="
-	@venv/bin/python $(SRC)
+	@venv/bin/python $(SRC1)
+	@venv/bin/python $(SRC2)
 
 clean:
 	@echo "=== Limpando arquivos temporários ==="

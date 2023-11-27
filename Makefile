@@ -2,13 +2,13 @@
 
 .PHONY: all run clean
 
-SRC := main.py
+SRC := ./main.py
 
 all: run
 
 run:
 	@echo "=== Executando o programa ==="
-	@$(SRC)
+	@python3 $(SRC)
 
 venv:
 	@echo "=== Configurando ambiente virtual ==="

@@ -20,14 +20,21 @@ make
 make run_venv
 ```
 
-O programa irá solicitar qual arquivo deseja escolher, utilize uma das opções 1 2 ou 3 e clique em enter
+3. O programa irá solicitar qual arquivo deseja escolher, utilize uma das opções 1 2 ou 3 e clique em enter
+```
+=== Executando o programa ===
+Digite o numero (1, 2 ou 3) de uma da opcoes abaixo e aperte enter: 
+1 - exemplo1.lcc
+2 - exemplo2.lcc
+3 - exemplo3.lcc
+```
 
-3. Limpar arquivos temporários:
+4. Limpar arquivos temporários:
 ```
 make clean
 ```
 
-4. para exibir os comandos disponíveis:
+5. para exibir os comandos disponíveis:
 ```
 make help
 ```

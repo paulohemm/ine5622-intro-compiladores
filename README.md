@@ -20,6 +20,8 @@ make
 make run_venv
 ```
 
+O programa irá solicitar qual arquivo deseja escolher, utilize uma das opções 1 2 ou 3 e clique em enter
+
 3. Limpar arquivos temporários:
 ```
 make clean
